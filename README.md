@@ -5,14 +5,12 @@ In this tutorial, we leverage the power of the nlptown/bert-base-multilingual-un
 
 The tutorial covers the following key steps:
 
-Data Preparation: We start by preparing the input data for sentiment analysis. This typically involves collecting, cleaning, and preprocessing the text data.
+**Import Some Librarie and Dependencies**
 
-Tokenization and Encoding: Next, we tokenize the text data into individual tokens and convert them into numerical representations that can be understood by the BERT model.
+**Tokenization and Encoding: Next, we tokenize the text data into individual tokens and convert them into numerical representations that can be understood by the BERT model.**
 
-Model Loading: We load the nlptown/bert-base-multilingual-uncased-sentiment model using a deep learning framework such as PyTorch or TensorFlow.
+**Instantiate Model**: We load the nlptown/bert-base-multilingual-uncased-sentiment model using a deep learning framework such as PyTorch
 
 Inference and Prediction: Using the loaded model, we perform inference on the preprocessed text data to predict the sentiment labels. We demonstrate how to obtain sentiment scores or probabilities associated with each sentiment category.
-
-Evaluation and Analysis: Finally, we evaluate the performance of the sentiment analysis model by comparing the predicted sentiment labels with the ground truth labels. We discuss various evaluation metrics and techniques to analyze the results.
 
 The tutorial provides code examples and explanations for each step, making it easy for beginners to follow along and understand the sentiment analysis process.
